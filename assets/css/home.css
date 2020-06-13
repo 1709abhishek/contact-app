@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+.elements{
+    width: 50%;
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.number{
+    margin: 5px;
+}
+
+.form{
+    width: 50%;
+    margin-left: 30%;
+}
+
+.elements:hover{
+    background-color: grey;
+}
+
+.white-color{
+    color: white;
+}
